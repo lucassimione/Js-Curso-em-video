@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Olá, mundo!</h1> 
+  <p>Ufa! me livrei da madição.</p>
+
+  <script>
+      var n1 = Number(prompt('Digite um número: '))
+      // ------------- Conversão de String para número -------------
+      // Number.parseInt(n) -> conversão para inteiro
+      // Number.parseFloat(n) -> conversão para real
+      // Number(n) -> o js identifica o tipo do dado e converte automaticamente, por exemplo a entrada de um número que é igual a 6.5 ele converte diretamente para float
+      // ------------- Conversão de Número para string -------------
+      // String(n) -> converte o valor "n" para uma string
+      // n.ToString() -> converte o valor "n" para uma string
+      var n2 = Number(prompt('Digite outro número: '))
+      var soma = n1 + n2
+      alert('O resultado de ' + n1 + ' + ' + n2 +  ' = ' + soma);
+  </script>
+</body>
+</html>
