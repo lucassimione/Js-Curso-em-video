@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro documento com DOM</title>
+    <style>
+        body{
+            background-color: blue;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            font-size: 25px;
+        }
+
+    </style>
+    <!-- Para desenvolver e atualizar em tempo real basta instalar
+    a extensão LIVE SERVER. Habilitar o auto save em file. Para abrir 
+    CTRL + SHIFT + L e open with live server
+    -->
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div>Clique em mim</div>
+    <script>
+        var p1 = document.body.getElementsByTagName('p')[0].innerText
+        document.write(p1)
+    </script>
+</body>
+</html>
