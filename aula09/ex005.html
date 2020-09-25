@@ -23,11 +23,12 @@
 <body>
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
-    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <p class="p2" id="paragraph2" name="aaa">Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
     <div>Clique em mim</div>
     <script>
-        var p1 = document.body.getElementsByTagName('p')[0].innerText
-        document.write(p1)
+     var a = document.getElementsByTagName('p')[1]
+     document.write(a.innerText)
+
     </script>
 </body>
 </html>
